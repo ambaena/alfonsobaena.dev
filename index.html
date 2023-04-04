@@ -13,7 +13,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="https://cdn.tailwindcss.com"></script>
   </head>
-  <body>
-    <h1 class="text-3xl text-red-500 font-bold underline">Hello world!</h1>
+  <body class="bg-black min-h-screen">
+    <header class="fixed w-full py-3 top-0 border-b border-purple-700 bg-opacity-20 backdrop-blur-lg transition hover:border-purple-600">
+      <nav class="flex items-center justify-center gap-6 container mx-auto">
+        <a href="https://www.linkedin.com/in/alfonso-baena/" target="_blank" class="text-gray-400 transition hover:text-white">Linkedin</a>
+        <a href="https://github.com/ambaena" target="_blank" class="text-gray-400 transition hover:text-white">Github</a>
+        <a href="#" target="_blank" class="text-gray-400 transition hover:text-white">Medium</a>
+        <button class="bg-transparent hover:bg-purple-700 hover:border-purple-700 text-gray-400 font-semibold hover:text-white py-2 px-4 border border-purple-700  rounded">CV</button>
+      </nav>
+    </header>
   </body>
 </html>
