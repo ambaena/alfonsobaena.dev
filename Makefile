@@ -3,7 +3,7 @@ SHELL = /bin/sh
 .DEFAULT_GOAL:=help
 
 .PHONY: live-server
-live-server: ## Run local http server
+live-server: ## Run local http serverœ
 	npx live-server
 
 .PHONY: format

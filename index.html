@@ -32,73 +32,154 @@
         );
       "
     ></div>
+    <div
+      class="aspect-[1155/678] w-[72.1875rem] bg-gradient-to-tr from-[#430e79] to-[#9089fc] opacity-30"
+      style="
+        clip-path: polygon(
+          9% 13%,
+          13% 29%,
+          26% 19%,
+          53% 19%,
+          41% 31%,
+          55% 9%,
+          83% 27%,
+          90% 11%,
+          69% 39%,
+          33% 11%,
+          48% 77%,
+          94% 82%,
+          88% 45%,
+          24% 95%,
+          3% 69%,
+          58% 48%,
+          57% 62%,
+          7% 92%,
+          49% 39%,
+          47% 95%,
+          42% 20%,
+          8% 58%,
+          13% 97%,
+          29% 46%,
+          40% 90%,
+          39% 1%,
+          92% 100%
+        );
+      "
+    ></div>
   </div>
-  <body class="bg-black min-h-screen">
-    <header class="bg-[rgba(42,43,56,.5)] py-4 border-1 border-neutral-400 fixed top-3 right-0 left-0 flex justify-between items-center w-6/12 ml-auto mr-auto rounded-lg bg-opacity-20 backdrop-blur-lg">
+
+  <body class="bg-gray-100 min-h-screen">
+    <header class="bg-[rgba(42,43,56,.1)] py-4 border-1 border-neutral-400 fixed top-3 right-0 left-0 flex w-6/12 ml-auto mr-auto rounded-lg bg-opacity-20 backdrop-blur-lg">
       <nav class="flex items-center justify-center gap-6 container mx-auto">
-        <a href="https://www.linkedin.com/in/alfonso-baena/" target="_blank" class="text-gray-400 text-lg transition click:text-white">Linkedin</a>
-        <a href="https://github.com/ambaena" target="_blank" class="text-gray-400 transition hover:text-white">Github</a>
-        <a href="#" target="_blank" class="text-gray-400 transition hover:text-white">Medium</a>
+        <a href="https://www.linkedin.com/in/alfonso-baena/" target="_blank" class="flex gap-2 text-lg transition hover:text-white decoration-purple-950 underline-offset-2 hover:underline hover:decoration-wavy">
+          <img src="public/img/linkedin.svg" width="20" height="20" />
+          <p>Linkedin</p>
+        </a>
+        <a href="https://github.com/ambaena" target="_blank" class="flex gap-2 text-lg transition hover:text-white decoration-purple-950 underline-offset-2 hover:underline hover:decoration-wavy">
+          <img src="public/img/github.svg" width="20" height="20" />
+          <p>Github</p>
+        </a>
+        <a href="mailto:alfonsombaena+mysite@gmail.com" target="_blank" class="flex gap-2 text-lg transition hover:text-white decoration-purple-950 underline-offset-2 hover:underline hover:decoration-wavy">
+          <img src="public/img/mail.svg" width="20" height="20" />
+          <p>Contact</p>
+        </a>
+        <a href="https://cv.alfonsobaena.dev" target="_blank" class="gap-2 text-lg transition text-gray-200 hover:text-white">
+          <button class="flex bg-purple-950 px-2 rounded-md hover:shadow-[0px_0px_20px_10px_#E9D8FD]">
+            <p class="font-bold">👨🏻‍💻 CV</p>
+          </button>
+        </a>
       </nav>
     </header>
 
     <main class="mt-20 space-y-16 px-4 sm:px-0">
-      <section class="flex ml-auto mr-auto items-center justify-center">
-        <p class="text-xl sm:text-3xl text-gray-500 font-bold">I'm</p>
-        <h1 class="text-4xl sm:text-6xl text-gray-100 font-bold mt-2">Alfonso Baena</h1>
-        <p class="text-3xl sm:text-5xl text-purple-950 font-bold mt-20 hover:animate-pulse">a Data Engineer.</p>
+      <section class="pt-10">
+        <img class="border border-gray-800 w-80 h-80 p-1 rounded-full mx-auto shadow-2xl" src="public/img/me.jpeg" alt="Just me!" />
       </section>
 
-      <section class="flex flex-wrap gap-4">
-        <details class="ml-auto mr-auto w-8/12 text-lg text-gray-200 px-8 bg-[#430e79] border border-indigo-300 rounded-lg cursor-pointer mb-3 divide-y divide-purple-500 transition hover:bg-[#740cdb]">
-          <summary class="flex py-4">
-            <h3 class="text-gray-300 font-semibold grow">Senior Data Engineer<span class="text-gray-200 font-light px-1">@Next Digital Hub</span></h3>
-            <p class="text-gray-300 pr-10">2021 - Present</p>
-            <span class="transition group-open:rotate-180"
-              ><svg fill="none" height="24" shape-rendering="geometricPrecision" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewBox="0 0 24 24" width="24">
-                <path d="M6 9l6 6 6-6"></path></svg
-            ></span>
-          </summary>
-          <p class="px-4 py-3">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-        </details>
-
-        <details class="ml-auto mr-auto w-8/12 text-lg text-gray-200 px-8 bg-[#430e79] border border-indigo-300 rounded-lg cursor-pointer mb-3 divide-y divide-purple-500 transition hover:bg-[#740cdb]">
-          <summary class="flex py-4">
-            <h3 class="text-gray-300 font-semibold grow">Senior Data Engineer<span class="text-gray-200 font-light px-1">@Next Digital Hub</span></h3>
-            <p class="text-gray-300 pr-10">2021 - Present</p>
-            <span class="transition group-open:rotate-180"
-              ><svg fill="none" height="24" shape-rendering="geometricPrecision" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewBox="0 0 24 24" width="24">
-                <path d="M6 9l6 6 6-6"></path></svg
-            ></span>
-          </summary>
-          <p class="px-4 py-3">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-        </details>
-
-        <details class="ml-auto mr-auto w-8/12 text-lg text-gray-200 px-8 bg-[#430e79] border border-indigo-300 rounded-lg cursor-pointer mb-3 divide-y divide-purple-500 transition hover:bg-[#740cdb]">
-          <summary class="flex py-4">
-            <h3 class="text-gray-300 font-semibold grow">Senior Data Engineer<span class="text-gray-200 font-light px-1">@Next Digital Hub</span></h3>
-            <p class="text-gray-300 pr-10">2021 - Present</p>
-            <span class="transition group-open:rotate-180"
-              ><svg fill="none" height="24" shape-rendering="geometricPrecision" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewBox="0 0 24 24" width="24">
-                <path d="M6 9l6 6 6-6"></path></svg
-            ></span>
-          </summary>
-          <p class="px-4 py-3">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-        </details>
-
-        <details class="ml-auto mr-auto w-8/12 text-lg text-gray-200 px-8 bg-[#430e79] border border-indigo-300 rounded-lg cursor-pointer mb-3 divide-y divide-purple-500 transition hover:bg-[#740cdb]">
-          <summary class="flex py-4">
-            <h3 class="text-gray-300 font-semibold grow">Senior Data Engineer<span class="text-gray-200 font-light px-1">@Next Digital Hub</span></h3>
-            <p class="text-gray-300 pr-10">2021 - Present</p>
-            <span class="transition group-open:rotate-180"
-              ><svg fill="none" height="24" shape-rendering="geometricPrecision" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewBox="0 0 24 24" width="24">
-                <path d="M6 9l6 6 6-6"></path></svg
-            ></span>
-          </summary>
-          <p class="px-4 py-3">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-        </details>
+      <section class="flex m-auto items-center justify-center">
+        <p class="pr-4 text-xl sm:text-3xl text-gray-500 font-bold">I'm</p>
+        <span class="text-4xl sm:text-6xl before:block before:absolute before:-inset-1 before:-skew-y-3 before:bg-purple-950 relative inline-block">
+          <span class="relative text-white">Alfonso Baena</span>
+        </span>
+        <p class="pl-4 text-3xl sm:text-5xl text-purple-950 font-bold mt-10 hover:animate-pulse">a Data Engineer.</p>
       </section>
 
-      </main>
+      <section>
+        <h1 class="text-2xl text-gray-900 font-bold text-center">Career Objetives</h1>
+        <p class="pt-4 w-8/12 m-auto">
+          Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona
+          que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen. No sólo sobrevivió 500 años, sino que tambien ingresó como texto de
+          relleno en documentos electrónicos, quedando esencialmente igual al original. Fue popularizado en los 60s con la creación de las hojas "Letraset", las cuales contenian pasajes de Lorem Ipsum, y más
+          recientemente con software de autoedición, como por ejemplo Aldus PageMaker, el cual incluye versiones de Lorem Ipsum.
+        </p>
+      </section>
+
+      <section>
+        <h1 class="text-2xl text-gray-900 font-bold text-center pb-7">Professional Experience</h1>
+        <div class="flex flex-wrap gap-4">
+          <details
+            class="open:bg-gray-400 open:bg-opacity-0 open:shadow-[0px_0px_30px_5px_#9f7aea] m-auto w-8/12 text-lg text-gray-200 px-8 bg-purple-950 border border-indigo-300 rounded-lg cursor-pointer mb-3 divide-y divide-purple-500 hover:shadow-[0px_0px_20px_5px_#B794F4]"
+          >
+            <summary class="flex py-4">
+              <h3 class="text-gray-300 font-semibold grow">Senior Data Engineer<span class="text-gray-200 font-light px-1">@Next Digital Hub</span></h3>
+              <p class="text-gray-300 pr-10">2021 - Present</p>
+              <span class="transition group-open:rotate-180"
+                ><svg fill="none" height="24" shape-rendering="geometricPrecision" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewBox="0 0 24 24" width="24">
+                  <path d="M6 9l6 6 6-6"></path></svg
+              ></span>
+            </summary>
+            <p class="px-4 py-3">
+              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
+              scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the
+              release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+            </p>
+          </details>
+
+          <details
+            class="open:shadow-[0px_0px_30px_5px_#9f7aea] bg-gray-400 bg-opacity-20 ml-auto mr-auto w-8/12 text-lg px-8 border border-indigo-300 rounded-lg cursor-pointer mb-3 divide-y divide-gray-600 hover:shadow-[0px_0px_20px_5px_#E9D8FD]"
+          >
+            <summary class="flex py-4">
+              <h3 class="font-semibold grow">Senior Data Engineer<span class="text-gray-200 font-light px-1">@Next Digital Hub</span></h3>
+              <p class="text-gray-300 pr-10">2021 - Present</p>
+              <span class="transition group-open:rotate-180"
+                ><svg fill="none" height="24" shape-rendering="geometricPrecision" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewBox="0 0 24 24" width="24">
+                  <path d="M6 9l6 6 6-6"></path></svg
+              ></span>
+            </summary>
+            <p class="px-4 py-3">
+              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
+              scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the
+              release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+            </p>
+          </details>
+
+          <details
+            class="open:shadow-[0px_0px_30px_5px_#9f7aea] bg-gray-400 bg-opacity-20 ml-auto mr-auto w-8/12 text-lg px-8 border border-indigo-300 rounded-lg cursor-pointer mb-3 divide-y divide-gray-600 hover:shadow-[0px_0px_20px_5px_#E9D8FD]"
+          >
+            <summary class="flex py-4">
+              <h3 class="font-semibold grow">Senior Data Engineer<span class="text-gray-200 font-light px-1">@Next Digital Hub</span></h3>
+              <p class="text-gray-300 pr-10">2021 - Present</p>
+              <span class="transition group-open:rotate-180"
+                ><svg fill="none" height="24" shape-rendering="geometricPrecision" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewBox="0 0 24 24" width="24">
+                  <path d="M6 9l6 6 6-6"></path></svg
+              ></span>
+            </summary>
+            <p class="px-4 py-3">
+              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
+              scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the
+              release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+            </p>
+          </details>
+        </div>
+      </section>
+
+      <section>
+        <h1 class="text-2xl text-gray-900 font-bold text-center">Skills</h1>
+      </section>
+
+      <section>
+        <h1 class="text-2xl text-gray-900 font-bold text-center">Education</h1>
+      </section>
+    </main>
   </body>
 </html>
